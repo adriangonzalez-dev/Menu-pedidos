@@ -1,6 +1,6 @@
 import {ref} from 'vue';
 
-const url = `${import.meta.env.VITE_URL_API}/products`
+const url = `${import.meta.env.VITE_URL_API}/api/products`
 
 export default class PostService {
 
